@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.all{
+	max-width: 900px;
+	margin: auto
+}
+
+* {
+	font-family: 'Sawarabi Mincho', sans-serif;
+	}
+
+.header{
+	display:flex;
+	justify-content:space-between;
+	}
+
+#header{
+	word-spacing: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #575757;
+	font-size: 20px;
+	}	
+
+a　hover{
+	color: #EFA3E0；
+}
+
+.hover:hover{
+	color: #FFB8FE;
+}
+
+h1{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.text{
+	text-align: justify;
+	font-size: small;
+	letter-spacing: 0.5em;
+}
+
+.look a{
+	clear: both;
+	width: 150px;
+	padding: 10px 0;
+	background-color: #9A9A9A;
+	color: #ffffff;
+	
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	margin-top: 130px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.look a:hover{
+	background-color: #FFE5F9;
+	color: #B9B9B9;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer{
+	margin-top:200px;
+	margin-bottom: 30px;
+}
+
